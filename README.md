@@ -37,11 +37,11 @@ mvn test verify -DdeviceName=GalaxyS10e -Dcucumber.options="--tags @auto"
 ```
 
 ## Reporting and Logging
-**Reporting Path **
+**Reporting Path**
 ```
 ./target/report/cucumber-html-reports/report-feature_3867371660.html
 ```
-**Logging Path **
+**Logging Path**
 ```
 ./src/test/java/Logs/ApplicationLog
 ```
