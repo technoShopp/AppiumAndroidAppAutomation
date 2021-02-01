@@ -49,13 +49,12 @@ mvn test verify -DdeviceName=GalaxyS10e -Dcucumber.options="--tags @auto"
 ```
 1.A week cycle is from Monday to Sunday
 2.Sunday is the only non working day
-3.The meeting will not be scheduled on successive days and trying to do so will throw Assertion Error
-4.The start date has been set to a future date 15-March-2021 for the smoother execution of the tests
-5.The start and end time in hour and minute has been designed to be set
-6.The daysSelcted and firstLastDayScheduled values shouls be strictly with a single space
-7.The days on which the meeting has been scheduled will come up on logs
-8.The tear up and tear down information will also appear on logs
-9.Before running the automation script, please make sure to delete any already creayed meeting invites
+3.The start date has been set to a future date 15-March-2021 for the smoother execution of the tests
+4.The start and end time in hour and minute has been designed to be set
+5.The daysSelcted and firstLastDayScheduled values specified in the feature file should be strictly with a single space
+6.The days on which the meeting has been scheduled will come up on logs
+7.The tear up and tear down information will also appear on logs
+8.Before running the automation script, please make sure to delete any already created meeting invites
 ```
 
 
@@ -77,6 +76,7 @@ mvn test verify -DdeviceName=GalaxyS10e -Dcucumber.options="--tags @auto"
 4.NOT 3 DAYS A WEEK MEETING
 5.The days selected are not according to the no of days a week number which is 3 here
 6.The no of invitees are not equal to the specified ones
+NOTE: Please look into the logs for the clear ERROR MESSAGES after scanning the report
 ```
 
 
