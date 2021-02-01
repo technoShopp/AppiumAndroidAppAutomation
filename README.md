@@ -75,8 +75,8 @@ mvn test verify -DdeviceName=GalaxyS10e -Dcucumber.options="--tags @auto"
 6.The no of invitees are not equal to the specified ones
 
 
-## Documentation
+## Documentation and the Working Mobile Automation Execution video
 
-*https://github.com/deepak2all/UserService/blob/main/UserService/Coding%20Challenge%20RESPONSE-10029878.docx*
+*https://github.com/technoShopp/AppiumAndroidAppAutomation/tree/master/Execution%20Instructions*
 
-*https://github.com/deepak2all/UserService/blob/main/UserService/Contract%20-%20UserService.docx*
+
