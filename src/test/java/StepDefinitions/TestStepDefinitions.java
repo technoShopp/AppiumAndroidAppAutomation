@@ -82,8 +82,8 @@ public class TestStepDefinitions extends Tools {
 	}
 	else
 	{
-		log.error("The Title is not Recurring-Team Catch Up");
-		Assert.assertTrue(false);
+		log.error("The TITLE IS NOT Recurring-Team Catch Up");
+		Assert.fail();
 		
 		
 	}

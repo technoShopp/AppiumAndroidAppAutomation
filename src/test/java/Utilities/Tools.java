@@ -258,11 +258,13 @@ public class Tools {
 		//	log.info("YEAR TEXT =="+yearText);
 		
 			selectStartDate(monthText,yearText,monthYear,crmpo,dateInt,desiredMonth,yearPart);
+			
 		}
 		else
 		{
 			log.info("The STart day must not be sunday");
-			Assert.assertTrue(false);
+			//Assert.assertTrue(false);
+			Assert.fail();
 		}
 		log.info("****Day and Time set***");
 		}
@@ -331,7 +333,7 @@ public class Tools {
 			}
 			else if(diffday2day1==1 || diffday3day2==1 ) {
 				log.info("MEETINGS SHOULD NOT BE SCEDULED ON SUCCESSIVE DAYS");
-				Assert.assertTrue(false);
+				Assert.fail();
 			}
 			else {}
 			crmpo.getDuration().click();
@@ -344,19 +346,19 @@ public class Tools {
 			}
 			else {
 				log.info("Please don't select SUNDAY for MEETING ");
-				Assert.assertTrue(false);
+				Assert.fail();
 			}
 			}
 		else
 		{
 			log.info("The days selected does not match the days planned");
-			Assert.assertTrue(false);
+			Assert.fail();
 		}
 	}
 		else
 		{
 			log.info("The no of days a week is not 3");
-			Assert.assertTrue(false);
+			Assert.fail();
 		}
 		}
 	
@@ -455,7 +457,10 @@ public class Tools {
 		}
 		else
 		{log.info("INVITEES NAMES AND NUMBER DON't MATCH");
-		Assert.assertTrue(false);}
+		//Assert.assertTrue(false);
+		Assert.fail();
+		
+		}
 		
 	}
 	

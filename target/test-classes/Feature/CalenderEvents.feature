@@ -1,7 +1,7 @@
 Feature: Create a recurring meeting using Native Android/IOS Calender App
 
 @auto
-Scenario Outline: Create a new recurring (3 days a week) meeting, and make sure it doesn't repeat on successive days 
+Scenario Outline: Create a new recurring (3 days a week) meeting, and make sure it doesn't repeat on successive days
 Given I have launched the Calender App
 When the "<startFromDate>" day is not a non working day
 And the "<noOfDaysAWeek>" days a week meeting is not repeated on successive days for the days "<daysSelcted>"
@@ -14,19 +14,19 @@ And I check if the meeting with title "<meetingTitle>" is created on "<firstLast
 
 
 Examples:
-|startTime|startHour|startMinute|endTime|endHour|endMinute|startFromDate|meetingTitle                  |noOfInvitees|  inviteeList                                   | noOfDaysAWeek|daysSelcted                    |firstLastDayScheduled        |   
+|startTime|startHour|startMinute|endTime|endHour|endMinute|startFromDate|meetingTitle                  |noOfInvitees|  inviteeList                                   | noOfDaysAWeek|daysSelcted                    |firstLastDayScheduled        | ScenarioType|Description|  
 #------------------------------------------------------POSITIVE SCENARIO - BUILD SUCCESS---------------------------------------------------------------------
-|start    |6        |00         |end    |7      |15       |15-03-2021   |Recurring-Team Catch Up       |2           | deepak4all@gmail.com v_malini@rocketmail.com   |3             |tuesday thursday saturday      |16 March 2021,6 April 2021   |
+|start    |6        |00         |end    |7      |15       |15-03-2021   |Recurring-Team Catch Up       |2           | deepak4all@gmail.com v_malini@rocketmail.com   |3             |tuesday thursday saturday      |16 March 2021,6 April 2021   |POSITIVE|HAPPY PATH|
 #---------------------------------------ERROR PRONE SCENARIOS DUE TO INVALID DATA - BUILD FAILURE-------------------------------------------------------------
 # NEGATIVE SCENARIOS - SUCCESSIVE DAYS NOT ACCEPTED
-#|start    |6        |00         |end    |7      |15       |15-03-2021   |Recurring-Team Catch Up       |2           | deepak4all@gmail.com v_malini@rocketmail.com   |3             |tuesday wednesday saturday     |16 March 2021,6 April 2021   |
+#|start    |6        |00         |end    |7      |15       |15-03-2021   |Recurring-Team Catch Up       |2           | deepak4all@gmail.com v_malini@rocketmail.com   |3             |tuesday wednesday saturday     |16 March 2021,6 April 2021   |NEGATIVE|SUCCESSIVE DAYS NOT ACCEPTED|
 # NEGATIVE SCENARIOS - SUNDAY NOT ACCEPTED
-#|start    |6        |00         |end    |7      |15       |15-03-2021   |Recurring-Team Catch Up       |2           | deepak4all@gmail.com v_malini@rocketmail.com   |3             |tuesday thursday sunday        |16 March 2021,6 April 2021   |
+#|start    |6        |00         |end    |7      |15       |15-03-2021   |Recurring-Team Catch Up       |2           | deepak4all@gmail.com v_malini@rocketmail.com   |3             |tuesday thursday sunday        |16 March 2021,6 April 2021   |NEGATIVE|SUNDAY NOT ACCEPTED|
 # NEGATIVE SCENARIOS - TITLE VALIDATION TO BE EXACTLY "Recurring-Team Catch Up"
-#|start    |6        |00         |end    |7      |15       |15-03-2021   |Recurring-Team Catch Up 2     |2           | deepak4all@gmail.com v_malini@rocketmail.com   |3             |tuesday thursday saturday      |16 March 2021,6 April 2021   |
+#|start    |6        |00         |end    |7      |15       |15-03-2021   |Recurring-Team Catch Up 2     |2           | deepak4all@gmail.com v_malini@rocketmail.com   |3             |tuesday thursday saturday      |16 March 2021,6 April 2021   |NEGATIVE|TITLE VALIDATION FAILED|
 # NEGATIVE SCENARIOS - OTHER THAN 3 days a week
-#|start    |6        |00         |end    |7      |15       |15-03-2021   |Recurring-Team Catch Up       |2           | deepak4all@gmail.com v_malini@rocketmail.com   |2             |tuesday thursday saturday      |16 March 2021,6 April 2021   |
+#|start    |6        |00         |end    |7      |15       |15-03-2021   |Recurring-Team Catch Up       |2           | deepak4all@gmail.com v_malini@rocketmail.com   |2             |tuesday thursday saturday      |16 March 2021,6 April 2021   |NEGATIVE|NO OF DAYS A WEEK IS NOT 3|
 # NEGATIVE SCENARIO - The days selected are not equal to 3
-#|start    |6        |00         |end    |7      |15       |15-03-2021   |Recurring-Team Catch Up       |2           | deepak4all@gmail.com v_malini@rocketmail.com   |3             |tuesday thursday               |16 March 2021,6 April 2021   |
+#|start    |6        |00         |end    |7      |15       |15-03-2021   |Recurring-Team Catch Up       |2           | deepak4all@gmail.com v_malini@rocketmail.com   |3             |tuesday thursday               |16 March 2021,6 April 2021   |NEGATIVE|3 DAYS SELECTED NOT SELECTED |
 # NEGATIVE SCENARIO - The no of invitees not equal to the specified ones
-#|start    |6        |00         |end    |7      |15       |15-03-2021   |Recurring-Team Catch Up       |2           | deepak4all@gmail.com                           |3             |tuesday thursday saturday      |16 March 2021,6 April 2021   |
+#|start    |6        |00         |end    |7      |15       |15-03-2021   |Recurring-Team Catch Up       |2           | deepak4all@gmail.com                           |3             |tuesday thursday saturday      |16 March 2021,6 April 2021   |NEGATIVE|NO OF INVITEES NOT EQUAL TO THE LIST|

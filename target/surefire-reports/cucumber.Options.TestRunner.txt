@@ -1,4 +1,51 @@
 -------------------------------------------------------------------------------
 Test set: cucumber.Options.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 88.609 sec
+Tests run: 7, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 340.056 sec <<< FAILURE!
+Create a new recurring (3 days a week) meeting, and make sure it doesn't repeat on successive days #2(Create a recurring meeting using Native Android/IOS Calender App)  Time elapsed: 35.09 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.fail(Assert.java:95)
+	at Utilities.Tools.checkSuccessiveNonWorkingDay(Tools.java:336)
+	at StepDefinitions.TestStepDefinitions.the_days_a_week_meeting_is_not_repeated_on_successive_days_for_the_days(TestStepDefinitions.java:69)
+	at ?.the "3" days a week meeting is not repeated on successive days for the days "tuesday wednesday saturday"(file:///C:/Users/maliniv/Desktop/Sample/AndroidMobileAppAutomation/CalenderOne/src/test/java/Feature/CalenderEvents.feature:7)
+
+Create a new recurring (3 days a week) meeting, and make sure it doesn't repeat on successive days #3(Create a recurring meeting using Native Android/IOS Calender App)  Time elapsed: 30.899 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.fail(Assert.java:95)
+	at Utilities.Tools.checkSuccessiveNonWorkingDay(Tools.java:349)
+	at StepDefinitions.TestStepDefinitions.the_days_a_week_meeting_is_not_repeated_on_successive_days_for_the_days(TestStepDefinitions.java:69)
+	at ?.the "3" days a week meeting is not repeated on successive days for the days "tuesday thursday sunday"(file:///C:/Users/maliniv/Desktop/Sample/AndroidMobileAppAutomation/CalenderOne/src/test/java/Feature/CalenderEvents.feature:7)
+
+Create a new recurring (3 days a week) meeting, and make sure it doesn't repeat on successive days #4(Create a recurring meeting using Native Android/IOS Calender App)  Time elapsed: 44.099 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.fail(Assert.java:95)
+	at StepDefinitions.TestStepDefinitions.I_want_to_book_a_meeting_with_the_title(TestStepDefinitions.java:86)
+	at ?.I want to book a meeting with the title "Recurring-Team Catch Up 2"(file:///C:/Users/maliniv/Desktop/Sample/AndroidMobileAppAutomation/CalenderOne/src/test/java/Feature/CalenderEvents.feature:8)
+
+Create a new recurring (3 days a week) meeting, and make sure it doesn't repeat on successive days #5(Create a recurring meeting using Native Android/IOS Calender App)  Time elapsed: 29.2 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.fail(Assert.java:95)
+	at Utilities.Tools.checkSuccessiveNonWorkingDay(Tools.java:361)
+	at StepDefinitions.TestStepDefinitions.the_days_a_week_meeting_is_not_repeated_on_successive_days_for_the_days(TestStepDefinitions.java:69)
+	at ?.the "2" days a week meeting is not repeated on successive days for the days "tuesday thursday saturday"(file:///C:/Users/maliniv/Desktop/Sample/AndroidMobileAppAutomation/CalenderOne/src/test/java/Feature/CalenderEvents.feature:7)
+
+Create a new recurring (3 days a week) meeting, and make sure it doesn't repeat on successive days #6(Create a recurring meeting using Native Android/IOS Calender App)  Time elapsed: 31.35 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.fail(Assert.java:95)
+	at Utilities.Tools.checkSuccessiveNonWorkingDay(Tools.java:355)
+	at StepDefinitions.TestStepDefinitions.the_days_a_week_meeting_is_not_repeated_on_successive_days_for_the_days(TestStepDefinitions.java:69)
+	at ?.the "3" days a week meeting is not repeated on successive days for the days "tuesday thursday"(file:///C:/Users/maliniv/Desktop/Sample/AndroidMobileAppAutomation/CalenderOne/src/test/java/Feature/CalenderEvents.feature:7)
+
+Create a new recurring (3 days a week) meeting, and make sure it doesn't repeat on successive days #7(Create a recurring meeting using Native Android/IOS Calender App)  Time elapsed: 63.185 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.fail(Assert.java:95)
+	at Utilities.Tools.setInvitees(Tools.java:461)
+	at StepDefinitions.TestStepDefinitions.i_invite_and_they_are(TestStepDefinitions.java:96)
+	at ?.I invite "2" and they are "deepak4all@gmail.com"(file:///C:/Users/maliniv/Desktop/Sample/AndroidMobileAppAutomation/CalenderOne/src/test/java/Feature/CalenderEvents.feature:11)
+

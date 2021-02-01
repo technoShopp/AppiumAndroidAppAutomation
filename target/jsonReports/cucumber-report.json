@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-02-01T06:36:47.664Z",
+        "start_timestamp": "2021-02-01T22:56:05.926Z",
         "before": [
           {
             "result": {
-              "duration": 4860000000,
+              "duration": 7130000000,
               "status": "passed"
             },
             "match": {
@@ -22,7 +22,7 @@
         "after": [
           {
             "result": {
-              "duration": 203000000,
+              "duration": 434000000,
               "status": "passed"
             },
             "match": {
@@ -35,7 +35,7 @@
         "steps": [
           {
             "result": {
-              "duration": 10811000000,
+              "duration": 13606000000,
               "status": "passed"
             },
             "line": 5,
@@ -47,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 9781000000,
+              "duration": 10382000000,
               "status": "passed"
             },
             "line": 6,
@@ -65,7 +65,7 @@
           },
           {
             "result": {
-              "duration": 13016000000,
+              "duration": 15340000000,
               "status": "passed"
             },
             "line": 7,
@@ -87,7 +87,7 @@
           },
           {
             "result": {
-              "duration": 2500000000,
+              "duration": 2494000000,
               "status": "passed"
             },
             "line": 8,
@@ -105,7 +105,7 @@
           },
           {
             "result": {
-              "duration": 6797000000,
+              "duration": 9483000000,
               "status": "passed"
             },
             "line": 9,
@@ -131,7 +131,7 @@
           },
           {
             "result": {
-              "duration": 7797000000,
+              "duration": 9968000000,
               "status": "passed"
             },
             "line": 10,
@@ -157,7 +157,7 @@
           },
           {
             "result": {
-              "duration": 11063000000,
+              "duration": 11645000000,
               "status": "passed"
             },
             "line": 11,
@@ -179,7 +179,7 @@
           },
           {
             "result": {
-              "duration": 922000000,
+              "duration": 1463000000,
               "status": "passed"
             },
             "line": 12,
@@ -191,8 +191,1273 @@
           },
           {
             "result": {
-              "duration": 19703000000,
+              "duration": 22855000000,
               "status": "passed"
+            },
+            "line": 13,
+            "name": "I check if the meeting with title \"Recurring-Team Catch Up\" is created on \"16 March 2021,6 April 2021\" as expected",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Recurring-Team Catch Up\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"16 March 2021,6 April 2021\"",
+                  "offset": 74
+                }
+              ],
+              "location": "StepDefinitions.TestStepDefinitions.I_check_if_the_meeting_is_created_as_expected(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@auto"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-01T22:57:50.886Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6036000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Create a new recurring (3 days a week) meeting, and make sure it doesn\u0027t repeat on successive days",
+        "description": "",
+        "id": "create-a-recurring-meeting-using-native-android/ios-calender-app;create-a-new-recurring-(3-days-a-week)-meeting--and-make-sure-it-doesn-t-repeat-on-successive-days;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1329000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14751000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have launched the Calender App",
+            "match": {
+              "location": "StepDefinitions.TestStepDefinitions.I_have_launched_the_Calender_App()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 13021000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the \"15-03-2021\" day is not a non working day",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"15-03-2021\"",
+                  "offset": 4
+                }
+              ],
+              "location": "StepDefinitions.TestStepDefinitions.the_day_is_not_a_non_working_day(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.fail(Assert.java:95)\r\n\tat Utilities.Tools.checkSuccessiveNonWorkingDay(Tools.java:336)\r\n\tat StepDefinitions.TestStepDefinitions.the_days_a_week_meeting_is_not_repeated_on_successive_days_for_the_days(TestStepDefinitions.java:69)\r\n\tat ✽.the \"3\" days a week meeting is not repeated on successive days for the days \"tuesday wednesday saturday\"(file:///C:/Users/maliniv/Desktop/Sample/AndroidMobileAppAutomation/CalenderOne/src/test/java/Feature/CalenderEvents.feature:7)\r\n",
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "the \"3\" days a week meeting is not repeated on successive days for the days \"tuesday wednesday saturday\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"3\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"tuesday wednesday saturday\"",
+                  "offset": 76
+                }
+              ],
+              "location": "StepDefinitions.TestStepDefinitions.the_days_a_week_meeting_is_not_repeated_on_successive_days_for_the_days(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "I want to book a meeting with the title \"Recurring-Team Catch Up\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Recurring-Team Catch Up\"",
+                  "offset": 40
+                }
+              ],
+              "location": "StepDefinitions.TestStepDefinitions.I_want_to_book_a_meeting_with_the_title(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "the \"start\" time hour as \"6\" and minutes as \"00\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"start\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"6\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"00\"",
+                  "offset": 44
+                }
+              ],
+              "location": "StepDefinitions.TestStepDefinitions.the_time_hour_as_and_minutes_as(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "the \"end\" time hour as \"7\" and minutes as \"15\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"end\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"7\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"15\"",
+                  "offset": 42
+                }
+              ],
+              "location": "StepDefinitions.TestStepDefinitions.the_time_hour_as_and_minutes_as(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I invite \"2\" and they are \"deepak4all@gmail.com v_malini@rocketmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"deepak4all@gmail.com v_malini@rocketmail.com\"",
+                  "offset": 26
+                }
+              ],
+              "location": "StepDefinitions.TestStepDefinitions.i_invite_and_they_are(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "I save the meeting",
+            "match": {
+              "location": "StepDefinitions.TestStepDefinitions.i_save_the_meeting()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "I check if the meeting with title \"Recurring-Team Catch Up\" is created on \"16 March 2021,6 April 2021\" as expected",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Recurring-Team Catch Up\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"16 March 2021,6 April 2021\"",
+                  "offset": 74
+                }
+              ],
+              "location": "StepDefinitions.TestStepDefinitions.I_check_if_the_meeting_is_created_as_expected(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@auto"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-01T22:58:26.039Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5943000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Create a new recurring (3 days a week) meeting, and make sure it doesn\u0027t repeat on successive days",
+        "description": "",
+        "id": "create-a-recurring-meeting-using-native-android/ios-calender-app;create-a-new-recurring-(3-days-a-week)-meeting--and-make-sure-it-doesn-t-repeat-on-successive-days;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 996000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12581000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have launched the Calender App",
+            "match": {
+              "location": "StepDefinitions.TestStepDefinitions.I_have_launched_the_Calender_App()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11378000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the \"15-03-2021\" day is not a non working day",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"15-03-2021\"",
+                  "offset": 4
+                }
+              ],
+              "location": "StepDefinitions.TestStepDefinitions.the_day_is_not_a_non_working_day(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.fail(Assert.java:95)\r\n\tat Utilities.Tools.checkSuccessiveNonWorkingDay(Tools.java:349)\r\n\tat StepDefinitions.TestStepDefinitions.the_days_a_week_meeting_is_not_repeated_on_successive_days_for_the_days(TestStepDefinitions.java:69)\r\n\tat ✽.the \"3\" days a week meeting is not repeated on successive days for the days \"tuesday thursday sunday\"(file:///C:/Users/maliniv/Desktop/Sample/AndroidMobileAppAutomation/CalenderOne/src/test/java/Feature/CalenderEvents.feature:7)\r\n",
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "the \"3\" days a week meeting is not repeated on successive days for the days \"tuesday thursday sunday\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"3\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"tuesday thursday sunday\"",
+                  "offset": 76
+                }
+              ],
+              "location": "StepDefinitions.TestStepDefinitions.the_days_a_week_meeting_is_not_repeated_on_successive_days_for_the_days(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "I want to book a meeting with the title \"Recurring-Team Catch Up\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Recurring-Team Catch Up\"",
+                  "offset": 40
+                }
+              ],
+              "location": "StepDefinitions.TestStepDefinitions.I_want_to_book_a_meeting_with_the_title(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "the \"start\" time hour as \"6\" and minutes as \"00\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"start\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"6\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"00\"",
+                  "offset": 44
+                }
+              ],
+              "location": "StepDefinitions.TestStepDefinitions.the_time_hour_as_and_minutes_as(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "the \"end\" time hour as \"7\" and minutes as \"15\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"end\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"7\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"15\"",
+                  "offset": 42
+                }
+              ],
+              "location": "StepDefinitions.TestStepDefinitions.the_time_hour_as_and_minutes_as(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I invite \"2\" and they are \"deepak4all@gmail.com v_malini@rocketmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"deepak4all@gmail.com v_malini@rocketmail.com\"",
+                  "offset": 26
+                }
+              ],
+              "location": "StepDefinitions.TestStepDefinitions.i_invite_and_they_are(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "I save the meeting",
+            "match": {
+              "location": "StepDefinitions.TestStepDefinitions.i_save_the_meeting()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "I check if the meeting with title \"Recurring-Team Catch Up\" is created on \"16 March 2021,6 April 2021\" as expected",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Recurring-Team Catch Up\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"16 March 2021,6 April 2021\"",
+                  "offset": 74
+                }
+              ],
+              "location": "StepDefinitions.TestStepDefinitions.I_check_if_the_meeting_is_created_as_expected(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@auto"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-01T22:58:56.945Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5945000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Create a new recurring (3 days a week) meeting, and make sure it doesn\u0027t repeat on successive days",
+        "description": "",
+        "id": "create-a-recurring-meeting-using-native-android/ios-calender-app;create-a-new-recurring-(3-days-a-week)-meeting--and-make-sure-it-doesn-t-repeat-on-successive-days;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 1734000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10647000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have launched the Calender App",
+            "match": {
+              "location": "StepDefinitions.TestStepDefinitions.I_have_launched_the_Calender_App()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10631000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the \"15-03-2021\" day is not a non working day",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"15-03-2021\"",
+                  "offset": 4
+                }
+              ],
+              "location": "StepDefinitions.TestStepDefinitions.the_day_is_not_a_non_working_day(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15140000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the \"3\" days a week meeting is not repeated on successive days for the days \"tuesday thursday saturday\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"3\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"tuesday thursday saturday\"",
+                  "offset": 76
+                }
+              ],
+              "location": "StepDefinitions.TestStepDefinitions.the_days_a_week_meeting_is_not_repeated_on_successive_days_for_the_days(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.fail(Assert.java:95)\r\n\tat StepDefinitions.TestStepDefinitions.I_want_to_book_a_meeting_with_the_title(TestStepDefinitions.java:86)\r\n\tat ✽.I want to book a meeting with the title \"Recurring-Team Catch Up 2\"(file:///C:/Users/maliniv/Desktop/Sample/AndroidMobileAppAutomation/CalenderOne/src/test/java/Feature/CalenderEvents.feature:8)\r\n",
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "I want to book a meeting with the title \"Recurring-Team Catch Up 2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Recurring-Team Catch Up 2\"",
+                  "offset": 40
+                }
+              ],
+              "location": "StepDefinitions.TestStepDefinitions.I_want_to_book_a_meeting_with_the_title(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "the \"start\" time hour as \"6\" and minutes as \"00\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"start\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"6\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"00\"",
+                  "offset": 44
+                }
+              ],
+              "location": "StepDefinitions.TestStepDefinitions.the_time_hour_as_and_minutes_as(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "the \"end\" time hour as \"7\" and minutes as \"15\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"end\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"7\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"15\"",
+                  "offset": 42
+                }
+              ],
+              "location": "StepDefinitions.TestStepDefinitions.the_time_hour_as_and_minutes_as(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I invite \"2\" and they are \"deepak4all@gmail.com v_malini@rocketmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"deepak4all@gmail.com v_malini@rocketmail.com\"",
+                  "offset": 26
+                }
+              ],
+              "location": "StepDefinitions.TestStepDefinitions.i_invite_and_they_are(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "I save the meeting",
+            "match": {
+              "location": "StepDefinitions.TestStepDefinitions.i_save_the_meeting()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "I check if the meeting with title \"Recurring-Team Catch Up 2\" is created on \"16 March 2021,6 April 2021\" as expected",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Recurring-Team Catch Up 2\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"16 March 2021,6 April 2021\"",
+                  "offset": 76
+                }
+              ],
+              "location": "StepDefinitions.TestStepDefinitions.I_check_if_the_meeting_is_created_as_expected(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@auto"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-01T22:59:41.052Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5963000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "Create a new recurring (3 days a week) meeting, and make sure it doesn\u0027t repeat on successive days",
+        "description": "",
+        "id": "create-a-recurring-meeting-using-native-android/ios-calender-app;create-a-new-recurring-(3-days-a-week)-meeting--and-make-sure-it-doesn-t-repeat-on-successive-days;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 1535000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11232000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have launched the Calender App",
+            "match": {
+              "location": "StepDefinitions.TestStepDefinitions.I_have_launched_the_Calender_App()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10507000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the \"15-03-2021\" day is not a non working day",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"15-03-2021\"",
+                  "offset": 4
+                }
+              ],
+              "location": "StepDefinitions.TestStepDefinitions.the_day_is_not_a_non_working_day(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.fail(Assert.java:95)\r\n\tat Utilities.Tools.checkSuccessiveNonWorkingDay(Tools.java:361)\r\n\tat StepDefinitions.TestStepDefinitions.the_days_a_week_meeting_is_not_repeated_on_successive_days_for_the_days(TestStepDefinitions.java:69)\r\n\tat ✽.the \"2\" days a week meeting is not repeated on successive days for the days \"tuesday thursday saturday\"(file:///C:/Users/maliniv/Desktop/Sample/AndroidMobileAppAutomation/CalenderOne/src/test/java/Feature/CalenderEvents.feature:7)\r\n",
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "the \"2\" days a week meeting is not repeated on successive days for the days \"tuesday thursday saturday\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"tuesday thursday saturday\"",
+                  "offset": 76
+                }
+              ],
+              "location": "StepDefinitions.TestStepDefinitions.the_days_a_week_meeting_is_not_repeated_on_successive_days_for_the_days(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "I want to book a meeting with the title \"Recurring-Team Catch Up\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Recurring-Team Catch Up\"",
+                  "offset": 40
+                }
+              ],
+              "location": "StepDefinitions.TestStepDefinitions.I_want_to_book_a_meeting_with_the_title(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "the \"start\" time hour as \"6\" and minutes as \"00\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"start\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"6\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"00\"",
+                  "offset": 44
+                }
+              ],
+              "location": "StepDefinitions.TestStepDefinitions.the_time_hour_as_and_minutes_as(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "the \"end\" time hour as \"7\" and minutes as \"15\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"end\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"7\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"15\"",
+                  "offset": 42
+                }
+              ],
+              "location": "StepDefinitions.TestStepDefinitions.the_time_hour_as_and_minutes_as(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I invite \"2\" and they are \"deepak4all@gmail.com v_malini@rocketmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"deepak4all@gmail.com v_malini@rocketmail.com\"",
+                  "offset": 26
+                }
+              ],
+              "location": "StepDefinitions.TestStepDefinitions.i_invite_and_they_are(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "I save the meeting",
+            "match": {
+              "location": "StepDefinitions.TestStepDefinitions.i_save_the_meeting()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "I check if the meeting with title \"Recurring-Team Catch Up\" is created on \"16 March 2021,6 April 2021\" as expected",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Recurring-Team Catch Up\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"16 March 2021,6 April 2021\"",
+                  "offset": 74
+                }
+              ],
+              "location": "StepDefinitions.TestStepDefinitions.I_check_if_the_meeting_is_created_as_expected(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@auto"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-01T23:00:10.289Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6853000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "Create a new recurring (3 days a week) meeting, and make sure it doesn\u0027t repeat on successive days",
+        "description": "",
+        "id": "create-a-recurring-meeting-using-native-android/ios-calender-app;create-a-new-recurring-(3-days-a-week)-meeting--and-make-sure-it-doesn-t-repeat-on-successive-days;;7",
+        "after": [
+          {
+            "result": {
+              "duration": 1547000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11714000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have launched the Calender App",
+            "match": {
+              "location": "StepDefinitions.TestStepDefinitions.I_have_launched_the_Calender_App()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11236000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the \"15-03-2021\" day is not a non working day",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"15-03-2021\"",
+                  "offset": 4
+                }
+              ],
+              "location": "StepDefinitions.TestStepDefinitions.the_day_is_not_a_non_working_day(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.fail(Assert.java:95)\r\n\tat Utilities.Tools.checkSuccessiveNonWorkingDay(Tools.java:355)\r\n\tat StepDefinitions.TestStepDefinitions.the_days_a_week_meeting_is_not_repeated_on_successive_days_for_the_days(TestStepDefinitions.java:69)\r\n\tat ✽.the \"3\" days a week meeting is not repeated on successive days for the days \"tuesday thursday\"(file:///C:/Users/maliniv/Desktop/Sample/AndroidMobileAppAutomation/CalenderOne/src/test/java/Feature/CalenderEvents.feature:7)\r\n",
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "the \"3\" days a week meeting is not repeated on successive days for the days \"tuesday thursday\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"3\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"tuesday thursday\"",
+                  "offset": 76
+                }
+              ],
+              "location": "StepDefinitions.TestStepDefinitions.the_days_a_week_meeting_is_not_repeated_on_successive_days_for_the_days(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "I want to book a meeting with the title \"Recurring-Team Catch Up\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Recurring-Team Catch Up\"",
+                  "offset": 40
+                }
+              ],
+              "location": "StepDefinitions.TestStepDefinitions.I_want_to_book_a_meeting_with_the_title(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "the \"start\" time hour as \"6\" and minutes as \"00\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"start\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"6\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"00\"",
+                  "offset": 44
+                }
+              ],
+              "location": "StepDefinitions.TestStepDefinitions.the_time_hour_as_and_minutes_as(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "the \"end\" time hour as \"7\" and minutes as \"15\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"end\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"7\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"15\"",
+                  "offset": 42
+                }
+              ],
+              "location": "StepDefinitions.TestStepDefinitions.the_time_hour_as_and_minutes_as(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I invite \"2\" and they are \"deepak4all@gmail.com v_malini@rocketmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"deepak4all@gmail.com v_malini@rocketmail.com\"",
+                  "offset": 26
+                }
+              ],
+              "location": "StepDefinitions.TestStepDefinitions.i_invite_and_they_are(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "I save the meeting",
+            "match": {
+              "location": "StepDefinitions.TestStepDefinitions.i_save_the_meeting()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "I check if the meeting with title \"Recurring-Team Catch Up\" is created on \"16 March 2021,6 April 2021\" as expected",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Recurring-Team Catch Up\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"16 March 2021,6 April 2021\"",
+                  "offset": 74
+                }
+              ],
+              "location": "StepDefinitions.TestStepDefinitions.I_check_if_the_meeting_is_created_as_expected(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@auto"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-01T23:00:41.639Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5751000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "Create a new recurring (3 days a week) meeting, and make sure it doesn\u0027t repeat on successive days",
+        "description": "",
+        "id": "create-a-recurring-meeting-using-native-android/ios-calender-app;create-a-new-recurring-(3-days-a-week)-meeting--and-make-sure-it-doesn-t-repeat-on-successive-days;;8",
+        "after": [
+          {
+            "result": {
+              "duration": 1187000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12582000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have launched the Calender App",
+            "match": {
+              "location": "StepDefinitions.TestStepDefinitions.I_have_launched_the_Calender_App()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10518000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the \"15-03-2021\" day is not a non working day",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"15-03-2021\"",
+                  "offset": 4
+                }
+              ],
+              "location": "StepDefinitions.TestStepDefinitions.the_day_is_not_a_non_working_day(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14295000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the \"3\" days a week meeting is not repeated on successive days for the days \"tuesday thursday saturday\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"3\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"tuesday thursday saturday\"",
+                  "offset": 76
+                }
+              ],
+              "location": "StepDefinitions.TestStepDefinitions.the_days_a_week_meeting_is_not_repeated_on_successive_days_for_the_days(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2777000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I want to book a meeting with the title \"Recurring-Team Catch Up\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Recurring-Team Catch Up\"",
+                  "offset": 40
+                }
+              ],
+              "location": "StepDefinitions.TestStepDefinitions.I_want_to_book_a_meeting_with_the_title(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7720000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the \"start\" time hour as \"6\" and minutes as \"00\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"start\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"6\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"00\"",
+                  "offset": 44
+                }
+              ],
+              "location": "StepDefinitions.TestStepDefinitions.the_time_hour_as_and_minutes_as(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8355000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the \"end\" time hour as \"7\" and minutes as \"15\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"end\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"7\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"15\"",
+                  "offset": 42
+                }
+              ],
+              "location": "StepDefinitions.TestStepDefinitions.the_time_hour_as_and_minutes_as(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.fail(Assert.java:95)\r\n\tat Utilities.Tools.setInvitees(Tools.java:461)\r\n\tat StepDefinitions.TestStepDefinitions.i_invite_and_they_are(TestStepDefinitions.java:96)\r\n\tat ✽.I invite \"2\" and they are \"deepak4all@gmail.com\"(file:///C:/Users/maliniv/Desktop/Sample/AndroidMobileAppAutomation/CalenderOne/src/test/java/Feature/CalenderEvents.feature:11)\r\n",
+              "status": "failed"
+            },
+            "line": 11,
+            "name": "I invite \"2\" and they are \"deepak4all@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"deepak4all@gmail.com\"",
+                  "offset": 26
+                }
+              ],
+              "location": "StepDefinitions.TestStepDefinitions.i_invite_and_they_are(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "I save the meeting",
+            "match": {
+              "location": "StepDefinitions.TestStepDefinitions.i_save_the_meeting()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
             },
             "line": 13,
             "name": "I check if the meeting with title \"Recurring-Team Catch Up\" is created on \"16 March 2021,6 April 2021\" as expected",
