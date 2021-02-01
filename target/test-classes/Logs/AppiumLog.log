@@ -1,0 +1,14 @@
+01/02/2021 15:59:27 calenderLogger **************************************************************************
+01/02/2021 15:59:27 calenderLogger NODE = C:/Program Files/nodejs/node.exe
+01/02/2021 15:59:27 calenderLogger APPIUM = C:/Users/maliniv/AppData/Roaming/npm/node_modules/appium/build/lib/main.js
+01/02/2021 15:59:30 calenderLogger ******URL + PORT *****http://0.0.0.0:4058/wd/hub
+01/02/2021 15:59:30 calenderLogger STRING : http://0.0.0.0:4058/wd/hub
+01/02/2021 15:59:30 calenderLogger URL  : 4058
+01/02/2021 15:59:30 calenderLogger PORT USED  : 4058
+01/02/2021 15:59:32 calenderLogger Server successfully started
+01/02/2021 15:59:40 calenderLogger Driver Initialized
+01/02/2021 15:59:51 calenderLogger ****Day and Time set***
+01/02/2021 16:00:21 calenderLogger INVITEES NAMES AND NUMBER DON't MATCH
+01/02/2021 16:00:22 calenderLogger failed and took screenshot
+01/02/2021 16:00:22 calenderLogger Server successfully stopped
+01/02/2021 16:00:22 calenderLogger **************************************************************************

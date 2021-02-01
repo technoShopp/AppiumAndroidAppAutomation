@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.tablesorter.min.js"></script>
+<script src="js/Chart.min.js"></script>
+<script src="js/moment.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/cucumber.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script>
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+<title>Cucumber Reports (no 1) - Steps Overview</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber Report</p>
+      <ul class="nav navbar-nav navbar-right">
+        <li role="presentation" ><a href="overview-features.html">Features</a></li>
+        <li role="presentation" ><a href="overview-tags.html">Tags</a></li>
+        <li role="presentation"     class="active" ><a href="overview-steps.html">Steps</a></li>
+        <li role="presentation" ><a href="overview-failures.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid">
+  <div class="col-md-5 col-md-offset-1">
+
+<table class="table table-bordered" id="build-info">
+  <thead>
+    <tr>
+      <th>Project</th>
+        <th>Number</th>
+      <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="info">
+      <td>cucumber-jvm-example</td>
+        <td>1</td>
+      <td>01 Feb 2021, 16:38</td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+  <div class="col-md-3 col-md-offset-2">
+  </div>
+</div>
+
+
+<div id="report-lead" class="container-fluid">
+  <div class="col-md-10 col-md-offset-1">
+    <h2>Steps Statistics</h2>
+      <p>The following graph shows step statistics for this build. Below list is based on results.
+ step does not provide information about result then is not listed below.
+ Additionally @Before and @After are not counted because they are part of the scenarios, not steps.</p>
+  </div>
+</div>
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <table id="tablesorter" class="stats-table table-hover">
+
+        <thead>
+          <tr class="header">
+            <th>Implementation</th>
+            <th>Occurrences</th>
+            <th>Average duration</th>
+            <th>Max duration</th>
+            <th>Total durations</th>
+            <th>Ratio</th>
+          </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+              <td class="location">StepDefinitions.Hooks.afterScenario(io.cucumber.java.Scenario)</td>
+              <td>1</td>
+              <td class="duration" data-value="203000000">0.203</td>
+              <td class="duration" data-value="203000000">0.203</td>
+              <td class="duration" data-value="203000000">0.203</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">StepDefinitions.Hooks.beforeScenario()</td>
+              <td>1</td>
+              <td class="duration" data-value="4860000000">4.860</td>
+              <td class="duration" data-value="4860000000">4.860</td>
+              <td class="duration" data-value="4860000000">4.860</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">StepDefinitions.TestStepDefinitions.I_check_if_the_meeting_is_created_as_expected(java.lang.String,java.lang.String)</td>
+              <td>1</td>
+              <td class="duration" data-value="19703000000">19.703</td>
+              <td class="duration" data-value="19703000000">19.703</td>
+              <td class="duration" data-value="19703000000">19.703</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">StepDefinitions.TestStepDefinitions.I_have_launched_the_Calender_App()</td>
+              <td>1</td>
+              <td class="duration" data-value="10811000000">10.811</td>
+              <td class="duration" data-value="10811000000">10.811</td>
+              <td class="duration" data-value="10811000000">10.811</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">StepDefinitions.TestStepDefinitions.I_want_to_book_a_meeting_with_the_title(java.lang.String)</td>
+              <td>1</td>
+              <td class="duration" data-value="2500000000">2.500</td>
+              <td class="duration" data-value="2500000000">2.500</td>
+              <td class="duration" data-value="2500000000">2.500</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">StepDefinitions.TestStepDefinitions.i_invite_and_they_are(java.lang.String,java.lang.String)</td>
+              <td>1</td>
+              <td class="duration" data-value="11063000000">11.063</td>
+              <td class="duration" data-value="11063000000">11.063</td>
+              <td class="duration" data-value="11063000000">11.063</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">StepDefinitions.TestStepDefinitions.i_save_the_meeting()</td>
+              <td>1</td>
+              <td class="duration" data-value="922000000">0.922</td>
+              <td class="duration" data-value="922000000">0.922</td>
+              <td class="duration" data-value="922000000">0.922</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">StepDefinitions.TestStepDefinitions.the_day_is_not_a_non_working_day(java.lang.String)</td>
+              <td>1</td>
+              <td class="duration" data-value="9781000000">9.781</td>
+              <td class="duration" data-value="9781000000">9.781</td>
+              <td class="duration" data-value="9781000000">9.781</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">StepDefinitions.TestStepDefinitions.the_days_a_week_meeting_is_not_repeated_on_successive_days_for_the_days(java.lang.String,java.lang.String)</td>
+              <td>1</td>
+              <td class="duration" data-value="13016000000">13.016</td>
+              <td class="duration" data-value="13016000000">13.016</td>
+              <td class="duration" data-value="13016000000">13.016</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">StepDefinitions.TestStepDefinitions.the_time_hour_as_and_minutes_as(java.lang.String,java.lang.String,java.lang.String)</td>
+              <td>2</td>
+              <td class="duration" data-value="7297000000">7.297</td>
+              <td class="duration" data-value="7297000000">7.797</td>
+              <td class="duration" data-value="14594000000">14.594</td>
+              <td class="passed">100.00%</td>
+            </tr>
+        </tbody>
+
+        <tfoot class="total">
+          <tr>
+            <td>10</td>
+            <td>11</td>
+            <td class="duration">7.950</td>
+            <td class="duration">19.703</td>
+            <td class="duration">1:27.453</td>
+            <td>Totals</td>
+          </tr>
+        </tfoot>
+
+      </table>
+    </div>
+  </div>
+</div>
+
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>
