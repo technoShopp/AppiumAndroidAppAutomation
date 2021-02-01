@@ -317,3 +317,299 @@
 01/02/2021 16:00:22 calenderLogger failed and took screenshot
 01/02/2021 16:00:22 calenderLogger Server successfully stopped
 01/02/2021 16:00:22 calenderLogger **************************************************************************
+01/02/2021 16:07:28 calenderLogger **************************************************************************
+01/02/2021 16:07:28 calenderLogger NODE = C:/Program Files/nodejs/node.exe
+01/02/2021 16:07:28 calenderLogger APPIUM = C:/Users/maliniv/AppData/Roaming/npm/node_modules/appium/build/lib/main.js
+01/02/2021 16:07:31 calenderLogger ******URL + PORT *****http://0.0.0.0:27381/wd/hub
+01/02/2021 16:07:31 calenderLogger STRING : http://0.0.0.0:27381/wd/hub
+01/02/2021 16:07:31 calenderLogger URL  : 27381
+01/02/2021 16:07:31 calenderLogger PORT USED  : 27381
+01/02/2021 16:07:33 calenderLogger Server successfully started
+01/02/2021 16:07:42 calenderLogger Driver Initialized
+01/02/2021 16:07:53 calenderLogger ****Day and Time set***
+01/02/2021 16:08:53 calenderLogger MEETING SCHEDULED SUCCESSFULLY ONSat, 3 April 2021
+01/02/2021 16:08:53 calenderLogger MEETING SCHEDULED SUCCESSFULLY ONSat, 27 March 2021
+01/02/2021 16:08:53 calenderLogger MEETING SCHEDULED SUCCESSFULLY ONTue, 23 March 2021
+01/02/2021 16:08:53 calenderLogger MEETING SCHEDULED SUCCESSFULLY ONSat, 20 March 2021
+01/02/2021 16:08:53 calenderLogger MEETING SCHEDULED SUCCESSFULLY ONThu, 1 April 2021
+01/02/2021 16:08:53 calenderLogger MEETING SCHEDULED SUCCESSFULLY ONThu, 25 March 2021
+01/02/2021 16:08:53 calenderLogger MEETING SCHEDULED SUCCESSFULLY ONTue, 30 March 2021
+01/02/2021 16:08:53 calenderLogger MEETING SCHEDULED SUCCESSFULLY ONThu, 18 March 2021
+01/02/2021 16:08:53 calenderLogger MEETING SCHEDULED SUCCESSFULLY ONTue, 16 March 2021
+01/02/2021 16:08:53 calenderLogger MEETING SCHEDULED SUCCESSFULLY ONTue, 6 April 2021
+01/02/2021 16:08:53 calenderLogger passed
+01/02/2021 16:08:53 calenderLogger Server successfully stopped
+01/02/2021 16:08:53 calenderLogger **************************************************************************
+01/02/2021 16:09:15 calenderLogger **************************************************************************
+01/02/2021 16:09:15 calenderLogger NODE = C:/Program Files/nodejs/node.exe
+01/02/2021 16:09:15 calenderLogger APPIUM = C:/Users/maliniv/AppData/Roaming/npm/node_modules/appium/build/lib/main.js
+01/02/2021 16:09:19 calenderLogger ******URL + PORT *****http://0.0.0.0:34418/wd/hub
+01/02/2021 16:09:19 calenderLogger STRING : http://0.0.0.0:34418/wd/hub
+01/02/2021 16:09:19 calenderLogger URL  : 34418
+01/02/2021 16:09:19 calenderLogger PORT USED  : 34418
+01/02/2021 16:09:20 calenderLogger Server successfully started
+01/02/2021 16:09:29 calenderLogger Driver Initialized
+01/02/2021 16:09:40 calenderLogger ****Day and Time set***
+01/02/2021 16:10:40 calenderLogger MEETING SCHEDULED SUCCESSFULLY ONSat, 3 April 2021
+01/02/2021 16:10:40 calenderLogger MEETING SCHEDULED SUCCESSFULLY ONSat, 27 March 2021
+01/02/2021 16:10:40 calenderLogger MEETING SCHEDULED SUCCESSFULLY ONTue, 23 March 2021
+01/02/2021 16:10:40 calenderLogger MEETING SCHEDULED SUCCESSFULLY ONSat, 20 March 2021
+01/02/2021 16:10:40 calenderLogger MEETING SCHEDULED SUCCESSFULLY ONThu, 1 April 2021
+01/02/2021 16:10:40 calenderLogger MEETING SCHEDULED SUCCESSFULLY ONThu, 25 March 2021
+01/02/2021 16:10:40 calenderLogger MEETING SCHEDULED SUCCESSFULLY ONTue, 30 March 2021
+01/02/2021 16:10:40 calenderLogger MEETING SCHEDULED SUCCESSFULLY ONThu, 18 March 2021
+01/02/2021 16:10:40 calenderLogger MEETING SCHEDULED SUCCESSFULLY ONTue, 16 March 2021
+01/02/2021 16:10:40 calenderLogger MEETING SCHEDULED SUCCESSFULLY ONTue, 6 April 2021
+01/02/2021 16:10:40 calenderLogger passed
+01/02/2021 16:10:40 calenderLogger Server successfully stopped
+01/02/2021 16:10:40 calenderLogger **************************************************************************
+01/02/2021 16:10:40 calenderLogger **************************************************************************
+01/02/2021 16:10:40 calenderLogger NODE = C:/Program Files/nodejs/node.exe
+01/02/2021 16:10:40 calenderLogger APPIUM = C:/Users/maliniv/AppData/Roaming/npm/node_modules/appium/build/lib/main.js
+01/02/2021 16:10:43 calenderLogger ******URL + PORT *****http://0.0.0.0:45361/wd/hub
+01/02/2021 16:10:43 calenderLogger STRING : http://0.0.0.0:45361/wd/hub
+01/02/2021 16:10:43 calenderLogger URL  : 45361
+01/02/2021 16:10:43 calenderLogger PORT USED  : 45361
+01/02/2021 16:10:46 calenderLogger Server successfully started
+01/02/2021 16:10:53 calenderLogger Driver Initialized
+01/02/2021 16:11:04 calenderLogger ****Day and Time set***
+01/02/2021 16:11:04 calenderLogger MEETINGS SHOULD NOT BE SCEDULED ON SUCCESSIVE DAYS
+01/02/2021 16:11:05 calenderLogger failed and took screenshot
+01/02/2021 16:11:05 calenderLogger Server successfully stopped
+01/02/2021 16:11:05 calenderLogger **************************************************************************
+01/02/2021 16:11:49 calenderLogger **************************************************************************
+01/02/2021 16:11:49 calenderLogger NODE = C:/Program Files/nodejs/node.exe
+01/02/2021 16:11:49 calenderLogger APPIUM = C:/Users/maliniv/AppData/Roaming/npm/node_modules/appium/build/lib/main.js
+01/02/2021 16:11:52 calenderLogger ******URL + PORT *****http://0.0.0.0:40197/wd/hub
+01/02/2021 16:11:52 calenderLogger STRING : http://0.0.0.0:40197/wd/hub
+01/02/2021 16:11:52 calenderLogger URL  : 40197
+01/02/2021 16:11:52 calenderLogger PORT USED  : 40197
+01/02/2021 16:11:54 calenderLogger Server successfully started
+01/02/2021 16:12:03 calenderLogger Driver Initialized
+01/02/2021 16:12:14 calenderLogger ****Day and Time set***
+01/02/2021 16:13:16 calenderLogger MEETING SCHEDULED SUCCESSFULLY ONSat, 3 April 2021
+01/02/2021 16:13:16 calenderLogger MEETING SCHEDULED SUCCESSFULLY ONTue, 23 March 2021
+01/02/2021 16:13:16 calenderLogger MEETING SCHEDULED SUCCESSFULLY ONSat, 20 March 2021
+01/02/2021 16:13:16 calenderLogger MEETING SCHEDULED SUCCESSFULLY ONThu, 1 April 2021
+01/02/2021 16:13:16 calenderLogger MEETING SCHEDULED SUCCESSFULLY ONThu, 18 March 2021
+01/02/2021 16:13:16 calenderLogger MEETING SCHEDULED SUCCESSFULLY ONTue, 16 March 2021
+01/02/2021 16:13:16 calenderLogger MEETING SCHEDULED SUCCESSFULLY ONTue, 6 April 2021
+01/02/2021 16:13:16 calenderLogger passed
+01/02/2021 16:13:17 calenderLogger Server successfully stopped
+01/02/2021 16:13:17 calenderLogger **************************************************************************
+01/02/2021 16:13:17 calenderLogger **************************************************************************
+01/02/2021 16:13:17 calenderLogger NODE = C:/Program Files/nodejs/node.exe
+01/02/2021 16:13:17 calenderLogger APPIUM = C:/Users/maliniv/AppData/Roaming/npm/node_modules/appium/build/lib/main.js
+01/02/2021 16:13:20 calenderLogger ******URL + PORT *****http://0.0.0.0:23462/wd/hub
+01/02/2021 16:13:20 calenderLogger STRING : http://0.0.0.0:23462/wd/hub
+01/02/2021 16:13:20 calenderLogger URL  : 23462
+01/02/2021 16:13:20 calenderLogger PORT USED  : 23462
+01/02/2021 16:13:22 calenderLogger Server successfully started
+01/02/2021 16:13:30 calenderLogger Driver Initialized
+01/02/2021 16:13:42 calenderLogger ****Day and Time set***
+01/02/2021 16:13:42 calenderLogger MEETINGS SHOULD NOT BE SCEDULED ON SUCCESSIVE DAYS
+01/02/2021 16:13:42 calenderLogger failed and took screenshot
+01/02/2021 16:13:43 calenderLogger Server successfully stopped
+01/02/2021 16:13:43 calenderLogger **************************************************************************
+01/02/2021 16:16:03 calenderLogger **************************************************************************
+01/02/2021 16:16:03 calenderLogger NODE = C:/Program Files/nodejs/node.exe
+01/02/2021 16:16:03 calenderLogger APPIUM = C:/Users/maliniv/AppData/Roaming/npm/node_modules/appium/build/lib/main.js
+01/02/2021 16:16:06 calenderLogger ******URL + PORT *****http://0.0.0.0:18742/wd/hub
+01/02/2021 16:16:06 calenderLogger STRING : http://0.0.0.0:18742/wd/hub
+01/02/2021 16:16:06 calenderLogger URL  : 18742
+01/02/2021 16:16:06 calenderLogger PORT USED  : 18742
+01/02/2021 16:16:08 calenderLogger Server successfully started
+01/02/2021 16:16:17 calenderLogger Driver Initialized
+01/02/2021 16:16:28 calenderLogger ****Day and Time set***
+01/02/2021 16:17:30 calenderLogger MEETING SCHEDULED SUCCESSFULLY ONSat, 3 April 2021
+01/02/2021 16:17:30 calenderLogger MEETING SCHEDULED SUCCESSFULLY ONSat, 27 March 2021
+01/02/2021 16:17:30 calenderLogger MEETING SCHEDULED SUCCESSFULLY ONTue, 23 March 2021
+01/02/2021 16:17:30 calenderLogger MEETING SCHEDULED SUCCESSFULLY ONSat, 20 March 2021
+01/02/2021 16:17:30 calenderLogger MEETING SCHEDULED SUCCESSFULLY ONThu, 1 April 2021
+01/02/2021 16:17:30 calenderLogger MEETING SCHEDULED SUCCESSFULLY ONThu, 25 March 2021
+01/02/2021 16:17:30 calenderLogger MEETING SCHEDULED SUCCESSFULLY ONTue, 30 March 2021
+01/02/2021 16:17:30 calenderLogger MEETING SCHEDULED SUCCESSFULLY ONThu, 18 March 2021
+01/02/2021 16:17:30 calenderLogger MEETING SCHEDULED SUCCESSFULLY ONTue, 16 March 2021
+01/02/2021 16:17:30 calenderLogger MEETING SCHEDULED SUCCESSFULLY ONTue, 6 April 2021
+01/02/2021 16:17:30 calenderLogger passed
+01/02/2021 16:17:30 calenderLogger Server successfully stopped
+01/02/2021 16:17:30 calenderLogger **************************************************************************
+01/02/2021 16:18:27 calenderLogger **************************************************************************
+01/02/2021 16:18:27 calenderLogger NODE = C:/Program Files/nodejs/node.exe
+01/02/2021 16:18:27 calenderLogger APPIUM = C:/Users/maliniv/AppData/Roaming/npm/node_modules/appium/build/lib/main.js
+01/02/2021 16:18:30 calenderLogger ******URL + PORT *****http://0.0.0.0:10554/wd/hub
+01/02/2021 16:18:30 calenderLogger STRING : http://0.0.0.0:10554/wd/hub
+01/02/2021 16:18:30 calenderLogger URL  : 10554
+01/02/2021 16:18:30 calenderLogger PORT USED  : 10554
+01/02/2021 16:18:32 calenderLogger Server successfully started
+01/02/2021 16:18:41 calenderLogger Driver Initialized
+01/02/2021 16:18:51 calenderLogger ****Day and Time set***
+01/02/2021 16:19:54 calenderLogger MEETING SCHEDULED SUCCESSFULLY ONSat, 3 April 2021
+01/02/2021 16:19:54 calenderLogger MEETING SCHEDULED SUCCESSFULLY ONTue, 23 March 2021
+01/02/2021 16:19:54 calenderLogger MEETING SCHEDULED SUCCESSFULLY ONSat, 20 March 2021
+01/02/2021 16:19:54 calenderLogger MEETING SCHEDULED SUCCESSFULLY ONThu, 1 April 2021
+01/02/2021 16:19:54 calenderLogger MEETING SCHEDULED SUCCESSFULLY ONTue, 30 March 2021
+01/02/2021 16:19:54 calenderLogger MEETING SCHEDULED SUCCESSFULLY ONThu, 18 March 2021
+01/02/2021 16:19:54 calenderLogger MEETING SCHEDULED SUCCESSFULLY ONTue, 16 March 2021
+01/02/2021 16:19:54 calenderLogger MEETING SCHEDULED SUCCESSFULLY ONTue, 6 April 2021
+01/02/2021 16:19:54 calenderLogger passed
+01/02/2021 16:19:54 calenderLogger Server successfully stopped
+01/02/2021 16:19:54 calenderLogger **************************************************************************
+01/02/2021 16:19:54 calenderLogger **************************************************************************
+01/02/2021 16:19:54 calenderLogger NODE = C:/Program Files/nodejs/node.exe
+01/02/2021 16:19:54 calenderLogger APPIUM = C:/Users/maliniv/AppData/Roaming/npm/node_modules/appium/build/lib/main.js
+01/02/2021 16:19:57 calenderLogger ******URL + PORT *****http://0.0.0.0:26889/wd/hub
+01/02/2021 16:19:57 calenderLogger STRING : http://0.0.0.0:26889/wd/hub
+01/02/2021 16:19:57 calenderLogger URL  : 26889
+01/02/2021 16:19:57 calenderLogger PORT USED  : 26889
+01/02/2021 16:19:59 calenderLogger Server successfully started
+01/02/2021 16:20:07 calenderLogger Driver Initialized
+01/02/2021 16:20:18 calenderLogger ****Day and Time set***
+01/02/2021 16:20:18 calenderLogger MEETINGS SHOULD NOT BE SCEDULED ON SUCCESSIVE DAYS
+01/02/2021 16:20:18 calenderLogger **************************************************************************
+01/02/2021 16:20:18 calenderLogger NODE = C:/Program Files/nodejs/node.exe
+01/02/2021 16:20:18 calenderLogger APPIUM = C:/Users/maliniv/AppData/Roaming/npm/node_modules/appium/build/lib/main.js
+01/02/2021 16:20:21 calenderLogger ******URL + PORT *****http://0.0.0.0:21543/wd/hub
+01/02/2021 16:20:21 calenderLogger STRING : http://0.0.0.0:21543/wd/hub
+01/02/2021 16:20:21 calenderLogger URL  : 21543
+01/02/2021 16:20:21 calenderLogger PORT USED  : 21543
+01/02/2021 16:20:23 calenderLogger Server successfully started
+01/02/2021 16:20:31 calenderLogger Driver Initialized
+01/02/2021 16:20:41 calenderLogger ****Day and Time set***
+01/02/2021 16:20:41 calenderLogger Please don't select SUNDAY for MEETING 
+01/02/2021 16:20:41 calenderLogger **************************************************************************
+01/02/2021 16:20:41 calenderLogger NODE = C:/Program Files/nodejs/node.exe
+01/02/2021 16:20:41 calenderLogger APPIUM = C:/Users/maliniv/AppData/Roaming/npm/node_modules/appium/build/lib/main.js
+01/02/2021 16:20:44 calenderLogger ******URL + PORT *****http://0.0.0.0:25789/wd/hub
+01/02/2021 16:20:44 calenderLogger STRING : http://0.0.0.0:25789/wd/hub
+01/02/2021 16:20:44 calenderLogger URL  : 25789
+01/02/2021 16:20:44 calenderLogger PORT USED  : 25789
+01/02/2021 16:20:46 calenderLogger Server successfully started
+01/02/2021 16:20:55 calenderLogger Driver Initialized
+01/02/2021 16:21:05 calenderLogger ****Day and Time set***
+01/02/2021 16:21:18 calenderLogger The Title is not Recurring-Team Catch Up
+01/02/2021 16:21:18 calenderLogger **************************************************************************
+01/02/2021 16:21:18 calenderLogger NODE = C:/Program Files/nodejs/node.exe
+01/02/2021 16:21:18 calenderLogger APPIUM = C:/Users/maliniv/AppData/Roaming/npm/node_modules/appium/build/lib/main.js
+01/02/2021 16:21:21 calenderLogger ******URL + PORT *****http://0.0.0.0:33712/wd/hub
+01/02/2021 16:21:21 calenderLogger STRING : http://0.0.0.0:33712/wd/hub
+01/02/2021 16:21:21 calenderLogger URL  : 33712
+01/02/2021 16:21:21 calenderLogger PORT USED  : 33712
+01/02/2021 16:21:23 calenderLogger Server successfully started
+01/02/2021 16:21:32 calenderLogger Driver Initialized
+01/02/2021 16:21:43 calenderLogger ****Day and Time set***
+01/02/2021 16:21:43 calenderLogger The no of days a week is not 3
+01/02/2021 16:21:43 calenderLogger **************************************************************************
+01/02/2021 16:21:43 calenderLogger NODE = C:/Program Files/nodejs/node.exe
+01/02/2021 16:21:43 calenderLogger APPIUM = C:/Users/maliniv/AppData/Roaming/npm/node_modules/appium/build/lib/main.js
+01/02/2021 16:21:46 calenderLogger ******URL + PORT *****http://0.0.0.0:8891/wd/hub
+01/02/2021 16:21:46 calenderLogger STRING : http://0.0.0.0:8891/wd/hub
+01/02/2021 16:21:46 calenderLogger URL  : 8891
+01/02/2021 16:21:46 calenderLogger PORT USED  : 8891
+01/02/2021 16:21:48 calenderLogger Server successfully started
+01/02/2021 16:21:56 calenderLogger Driver Initialized
+01/02/2021 16:22:07 calenderLogger ****Day and Time set***
+01/02/2021 16:22:07 calenderLogger The days selected does not match the days planned
+01/02/2021 16:22:08 calenderLogger **************************************************************************
+01/02/2021 16:22:08 calenderLogger NODE = C:/Program Files/nodejs/node.exe
+01/02/2021 16:22:08 calenderLogger APPIUM = C:/Users/maliniv/AppData/Roaming/npm/node_modules/appium/build/lib/main.js
+01/02/2021 16:22:11 calenderLogger ******URL + PORT *****http://0.0.0.0:42457/wd/hub
+01/02/2021 16:22:11 calenderLogger STRING : http://0.0.0.0:42457/wd/hub
+01/02/2021 16:22:11 calenderLogger URL  : 42457
+01/02/2021 16:22:11 calenderLogger PORT USED  : 42457
+01/02/2021 16:22:13 calenderLogger Server successfully started
+01/02/2021 16:22:22 calenderLogger Driver Initialized
+01/02/2021 16:22:33 calenderLogger ****Day and Time set***
+01/02/2021 16:23:04 calenderLogger INVITEES NAMES AND NUMBER DON't MATCH
+01/02/2021 16:25:28 calenderLogger **************************************************************************
+01/02/2021 16:25:28 calenderLogger NODE = C:/Program Files/nodejs/node.exe
+01/02/2021 16:25:28 calenderLogger APPIUM = C:/Users/maliniv/AppData/Roaming/npm/node_modules/appium/build/lib/main.js
+01/02/2021 16:25:31 calenderLogger ******URL + PORT *****http://0.0.0.0:3330/wd/hub
+01/02/2021 16:25:31 calenderLogger STRING : http://0.0.0.0:3330/wd/hub
+01/02/2021 16:25:31 calenderLogger URL  : 3330
+01/02/2021 16:25:31 calenderLogger PORT USED  : 3330
+01/02/2021 16:25:33 calenderLogger Server successfully started
+01/02/2021 16:25:43 calenderLogger Driver Initialized
+01/02/2021 16:25:54 calenderLogger ****Day and Time set***
+01/02/2021 16:27:01 calenderLogger MEETING SCHEDULED SUCCESSFULLY ONSat, 3 April 2021
+01/02/2021 16:27:01 calenderLogger MEETING SCHEDULED SUCCESSFULLY ONSat, 20 March 2021
+01/02/2021 16:27:01 calenderLogger MEETING SCHEDULED SUCCESSFULLY ONThu, 1 April 2021
+01/02/2021 16:27:01 calenderLogger MEETING SCHEDULED SUCCESSFULLY ONThu, 18 March 2021
+01/02/2021 16:27:01 calenderLogger MEETING SCHEDULED SUCCESSFULLY ONTue, 16 March 2021
+01/02/2021 16:27:01 calenderLogger MEETING SCHEDULED SUCCESSFULLY ONTue, 6 April 2021
+01/02/2021 16:27:01 calenderLogger passed
+01/02/2021 16:27:01 calenderLogger Server successfully stopped
+01/02/2021 16:27:01 calenderLogger **************************************************************************
+01/02/2021 16:27:01 calenderLogger **************************************************************************
+01/02/2021 16:27:01 calenderLogger NODE = C:/Program Files/nodejs/node.exe
+01/02/2021 16:27:01 calenderLogger APPIUM = C:/Users/maliniv/AppData/Roaming/npm/node_modules/appium/build/lib/main.js
+01/02/2021 16:27:04 calenderLogger ******URL + PORT *****http://0.0.0.0:5456/wd/hub
+01/02/2021 16:27:04 calenderLogger STRING : http://0.0.0.0:5456/wd/hub
+01/02/2021 16:27:04 calenderLogger URL  : 5456
+01/02/2021 16:27:04 calenderLogger PORT USED  : 5456
+01/02/2021 16:27:06 calenderLogger Server successfully started
+01/02/2021 16:27:15 calenderLogger Driver Initialized
+01/02/2021 16:27:26 calenderLogger ****Day and Time set***
+01/02/2021 16:27:26 calenderLogger MEETINGS SHOULD NOT BE SCEDULED ON SUCCESSIVE DAYS
+01/02/2021 16:27:27 calenderLogger **************************************************************************
+01/02/2021 16:27:27 calenderLogger NODE = C:/Program Files/nodejs/node.exe
+01/02/2021 16:27:27 calenderLogger APPIUM = C:/Users/maliniv/AppData/Roaming/npm/node_modules/appium/build/lib/main.js
+01/02/2021 16:27:30 calenderLogger ******URL + PORT *****http://0.0.0.0:1090/wd/hub
+01/02/2021 16:27:30 calenderLogger STRING : http://0.0.0.0:1090/wd/hub
+01/02/2021 16:27:30 calenderLogger URL  : 1090
+01/02/2021 16:27:30 calenderLogger PORT USED  : 1090
+01/02/2021 16:27:32 calenderLogger Server successfully started
+01/02/2021 16:27:40 calenderLogger Driver Initialized
+01/02/2021 16:27:51 calenderLogger ****Day and Time set***
+01/02/2021 16:27:51 calenderLogger Please don't select SUNDAY for MEETING 
+01/02/2021 16:30:18 calenderLogger **************************************************************************
+01/02/2021 16:30:18 calenderLogger NODE = C:/Program Files/nodejs/node.exe
+01/02/2021 16:30:18 calenderLogger APPIUM = C:/Users/maliniv/AppData/Roaming/npm/node_modules/appium/build/lib/main.js
+01/02/2021 16:30:21 calenderLogger ******URL + PORT *****http://0.0.0.0:2689/wd/hub
+01/02/2021 16:30:21 calenderLogger STRING : http://0.0.0.0:2689/wd/hub
+01/02/2021 16:30:21 calenderLogger URL  : 2689
+01/02/2021 16:30:21 calenderLogger PORT USED  : 2689
+01/02/2021 16:30:24 calenderLogger Server successfully started
+01/02/2021 16:30:33 calenderLogger Driver Initialized
+01/02/2021 16:30:43 calenderLogger ****Day and Time set***
+01/02/2021 16:30:43 calenderLogger MEETINGS SHOULD NOT BE SCEDULED ON SUCCESSIVE DAYS
+01/02/2021 16:30:44 calenderLogger failed and took screenshot
+01/02/2021 16:30:44 calenderLogger Server successfully stopped
+01/02/2021 16:30:44 calenderLogger **************************************************************************
+01/02/2021 16:30:44 calenderLogger **************************************************************************
+01/02/2021 16:30:44 calenderLogger NODE = C:/Program Files/nodejs/node.exe
+01/02/2021 16:30:44 calenderLogger APPIUM = C:/Users/maliniv/AppData/Roaming/npm/node_modules/appium/build/lib/main.js
+01/02/2021 16:30:47 calenderLogger ******URL + PORT *****http://0.0.0.0:48670/wd/hub
+01/02/2021 16:30:47 calenderLogger STRING : http://0.0.0.0:48670/wd/hub
+01/02/2021 16:30:47 calenderLogger URL  : 48670
+01/02/2021 16:30:47 calenderLogger PORT USED  : 48670
+01/02/2021 16:30:49 calenderLogger Server successfully started
+01/02/2021 16:30:58 calenderLogger Driver Initialized
+01/02/2021 16:31:08 calenderLogger ****Day and Time set***
+01/02/2021 16:31:08 calenderLogger Please don't select SUNDAY for MEETING 
+01/02/2021 16:31:09 calenderLogger failed and took screenshot
+01/02/2021 16:31:09 calenderLogger Server successfully stopped
+01/02/2021 16:31:09 calenderLogger **************************************************************************
+01/02/2021 16:36:47 calenderLogger **************************************************************************
+01/02/2021 16:36:47 calenderLogger NODE = C:/Program Files/nodejs/node.exe
+01/02/2021 16:36:47 calenderLogger APPIUM = C:/Users/maliniv/AppData/Roaming/npm/node_modules/appium/build/lib/main.js
+01/02/2021 16:36:50 calenderLogger ******URL + PORT *****http://0.0.0.0:43023/wd/hub
+01/02/2021 16:36:50 calenderLogger STRING : http://0.0.0.0:43023/wd/hub
+01/02/2021 16:36:50 calenderLogger URL  : 43023
+01/02/2021 16:36:50 calenderLogger PORT USED  : 43023
+01/02/2021 16:36:52 calenderLogger Server successfully started
+01/02/2021 16:37:02 calenderLogger Driver Initialized
+01/02/2021 16:37:13 calenderLogger ****Day and Time set***
+01/02/2021 16:38:15 calenderLogger MEETING SCHEDULED SUCCESSFULLY ONSat, 3 April 2021
+01/02/2021 16:38:15 calenderLogger MEETING SCHEDULED SUCCESSFULLY ONSat, 27 March 2021
+01/02/2021 16:38:15 calenderLogger MEETING SCHEDULED SUCCESSFULLY ONTue, 23 March 2021
+01/02/2021 16:38:15 calenderLogger MEETING SCHEDULED SUCCESSFULLY ONSat, 20 March 2021
+01/02/2021 16:38:15 calenderLogger MEETING SCHEDULED SUCCESSFULLY ONThu, 1 April 2021
+01/02/2021 16:38:15 calenderLogger MEETING SCHEDULED SUCCESSFULLY ONThu, 25 March 2021
+01/02/2021 16:38:15 calenderLogger MEETING SCHEDULED SUCCESSFULLY ONTue, 30 March 2021
+01/02/2021 16:38:15 calenderLogger MEETING SCHEDULED SUCCESSFULLY ONThu, 18 March 2021
+01/02/2021 16:38:15 calenderLogger MEETING SCHEDULED SUCCESSFULLY ONTue, 16 March 2021
+01/02/2021 16:38:15 calenderLogger MEETING SCHEDULED SUCCESSFULLY ONTue, 6 April 2021
+01/02/2021 16:38:15 calenderLogger passed
+01/02/2021 16:38:15 calenderLogger Server successfully stopped
+01/02/2021 16:38:15 calenderLogger **************************************************************************
