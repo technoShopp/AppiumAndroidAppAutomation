@@ -63,16 +63,24 @@ mvn test verify -DdeviceName=GalaxyS10e -Dcucumber.options="--tags @auto"
 
 
 ## Happy Path
-1.A recurring meeting will be scheduled on alternate 3 days a week (M, W, F or T, T, S) depending on the data provided in the feature file**
+
+```
+1.A recurring meeting will be scheduled on alternate 3 days a week (M, W, F or T, T, S) depending on the data provided in the feature file
+```
+
 
 
 ## Error Prone Scenarios
+
+```
 1.SUCCESSIVE DAYS NOT ACCEPTED
 2.SUNDAY NOT ACCEPTED
 3.TITLE VALIDATION TO BE EXACTLY "Recurring-Team Catch Up"
 4.NOT 3 DAYS A WEEK MEETING
 5.The days selected are not according to the no of days a week number which is 3 here
 6.The no of invitees are not equal to the specified ones
+```
+
 
 
 ## Documentation and the Working Mobile Automation Execution video
