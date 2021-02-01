@@ -13,13 +13,11 @@ To automate the process of creating a new recurring (3 days a week) meeting thro
 
 *3. Java*
 
-*4. Page Object Model*
+*4. Logging*
 
-*5. Logging*
+*5. Maven*
 
-*6. Maven*
-
-*7. Cucumber -html -report*
+*6. Cucumber -html -report*
 
 
 ## Installation and execution
