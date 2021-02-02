@@ -32,6 +32,10 @@ To automate the process of creating a new recurring (3 days a week) meeting thro
 *To run the script from a command line in a Terminal window you can use the below command.*
 ```
 mvn test verify -DdeviceName=GalaxyS10e -Dcucumber.options="--tags @auto"
+
+NOTE:
+Give any android device name for the variable -DdeviceName
+Here GalaxyS10e is the name of an android device
 ```
 
 ## Reporting and Logging
