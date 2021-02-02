@@ -1,6 +1,6 @@
 ## Project:
 Android Mobile App Automation using Appium 
-REST API Automation using REST Assured 
+
 
 ## Description:
 To automate the process of creating a new recurring (3 days a week) meeting through the native calender android app
@@ -36,6 +36,28 @@ mvn test verify -DdeviceName=GalaxyS10e -Dcucumber.options="--tags @auto"
 NOTE:
 Give any android device name for the variable -DdeviceName
 Here GalaxyS10e is the name of an android device
+```
+
+## pom.xml Configurations
+**To Capture only the Positive Scenarios out of the whole execution**
+```
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <configuration>
+                    <testFailureIgnore>false</testFailureIgnore>
+                 </configuration>
+            </plugin>
+```
+**To Capture both the Positive and the Negative Scenarios out of the whole execution**
+```
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <configuration>
+                    <testFailureIgnore>true</testFailureIgnore>
+                 </configuration>
+            </plugin>
 ```
 
 ## Reporting and Logging
